@@ -6,7 +6,7 @@ dotenv.config();
 const keypair = getKeypairFromEnvironment("SECRET_KEY");
 const publicKey = keypair.publicKey;
  
-const connection = new Connection("https://api.devnet.solana.com", "confirmed");
+const connection = new Connection("https://api.testnet.solana.com", "confirmed");
  
 const balanceInLamports = await connection.getBalance(publicKey);
  
