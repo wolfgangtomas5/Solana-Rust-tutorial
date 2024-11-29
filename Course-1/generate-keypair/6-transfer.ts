@@ -22,7 +22,7 @@ BQ8Taevq4LvUYA6UDskr9aRxc6w3GtmwtWzX2E7vgVCF
 $ solana airdrop 1 6EogCwBPxt4WVFiFrbLc9SAJceQdSnJw4MnJHq48uVTq --url https://api.testnet.solana.com
 Requesting airdrop of 1 SOL
 */
-const connection = new Connection("https://api.testnet.solana.com", "confirmed");
+const connection = new Connection("https://api.devnet.solana.com", "confirmed");
  
 console.log(
   `✅ Loaded our own keypair, the destination public key, and connected to Solana`
